@@ -1,0 +1,38 @@
+#container {
+    width: 400px;
+    height: 250px;
+    background-image:linear-gradient(90deg, rgba(66,64,103,1) 0%, rgba(163,81,133,1) 4%, rgba(72,72,120,1) 35%, rgba(62,92,139,1) 52%, rgba(59,98,145,1) 65%, rgba(50,115,162,1) 72%, rgba(68,80,128,1) 91%, rgba(39,61,65,1) 96%);
+    border: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+}
+#input{
+    width: 300px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+#result{
+    width: 350px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 0px 0px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
